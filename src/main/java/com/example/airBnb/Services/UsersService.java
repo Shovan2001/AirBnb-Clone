@@ -12,7 +12,7 @@ public interface UsersService
 	//update
 	Optional<Users> updateUser(Users users);
 	//delete
-	void delete(int id);
+	void deleteUser(int id);
 	//getAll
 	List<Users> getAllUsers();
 	//getById
